@@ -26,7 +26,7 @@ export const Categories: React.FC<Props> = ({ className }) => {
       {categories.map(({ id, name }) => (
         <a
           className={cn(
-            'flex items-center font-bold h-11 rounded-2xl px-5',
+            'flex items-center font-bold h-11 rounded-2xl px-5 transition-all duration-100',
             categoryActiveId === id &&
               'bg-white shadow-md shadow-gray-300 text-primary'
           )}

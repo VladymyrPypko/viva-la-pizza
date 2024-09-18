@@ -3,9 +3,12 @@ import { axiosInstance } from './axios';
 import { ApiRoutes } from './api-routes';
 
 export const search = async (query: string): Promise<Product[]> => {
-  const { data } = await axiosInstance.get<Product[]>(ApiRoutes.SEARCH_PRODUCTS, {
-    params: { query },
-  });
+  const { data } = await axiosInstance.get<Product[]>(
+    ApiRoutes.SEARCH_PRODUCTS,
+    {
+      params: { query },
+    }
+  );
 
   return data;
 };

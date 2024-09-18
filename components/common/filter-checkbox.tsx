@@ -1,19 +1,21 @@
-import { Checkbox } from "../ui"
+import { Checkbox } from '../ui';
 
 export interface FilterCheckboxProps {
-  text: string
-  value: string
-  endAdornment?: React.ReactNode
-  onCheckedChange?: (checked: boolean) => void
-  checked?: boolean
+  text: string;
+  value: string;
+  name?: string;
+  endAdornment?: React.ReactNode;
+  onCheckedChange?: (checked: boolean) => void;
+  checked?: boolean;
 }
 
 export const FilterCheckbox: React.FC<FilterCheckboxProps> = ({
   text,
   value,
+  name,
   endAdornment,
   onCheckedChange,
-  checked
+  checked,
 }) => {
   return (
     <div className='flex items-center space-x-2'>
@@ -22,12 +24,15 @@ export const FilterCheckbox: React.FC<FilterCheckboxProps> = ({
         value={value}
         onCheckedChange={onCheckedChange}
         checked={checked}
-        id={`checkbox-${String(value)}`}
+        id={`checkbox-${String(name)}-${String(value)}`}
       />
-      <label className="flex-1 leading-none cursor-pointer" htmlFor={`checkbox-${String(value)}`}>
+      <label
+        className='flex-1 leading-none cursor-pointer'
+        htmlFor={`checkbox-${String(name)}-${String(value)}`}
+      >
         {text}
       </label>
       {endAdornment}
     </div>
   );
-}
+};

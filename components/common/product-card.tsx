@@ -28,7 +28,8 @@ export const ProductCard: React.FC<Props> = ({
         <Title className='mb-1 mt-3 font-bold' text={name} size='sm' />
 
         <p className='text-sm text-gray-500'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, voluptas.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+          voluptas.
         </p>
 
         <div className='flex justify-between items-center mt-4'>
