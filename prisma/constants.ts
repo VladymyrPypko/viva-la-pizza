@@ -97,103 +97,151 @@ export const ingredients = [
 export const products = [
   {
     name: 'Ham and cheese sandwich',
-    imageUrl: 'https://i.ibb.co/zncC0hz/ham-And-Cheese-Sandwich.jpg',
+    imageUrl: 'https://i.ibb.co/zSvzpkC/Ham-and-cheese-sandwich.png',
+    description:
+      'Toasted ciabatta and the familiar combination of ham, chicken, mozzarella with fresh tomatoes, ranch sauce and garlic',
     categoryId: 2,
   },
   {
     name: 'Chicken nuggets',
-    imageUrl: 'https://i.ibb.co/kDmFsW1/chicken-Nuggets.jpg',
+    imageUrl: 'https://i.ibb.co/D8Yz6b8/Chicken-nuggets.png',
+    description: 'Tender chicken meat in crispy breading',
     categoryId: 2,
   },
   {
     name: 'Pasta Carbonara',
-    imageUrl: 'https://i.ibb.co/f4FXZr9/pasta-Carbonara.jpg',
+    imageUrl: 'https://i.ibb.co/12y6MMs/Pasta-Carbonara.png',
+    description:
+      'Oven pasta with bacon, cheddar and parmesan cheeses, tomatoes, mozzarella, signature alfredo sauce and garlic',
     categoryId: 2,
   },
   {
     name: 'BBQ chicken wings',
-    imageUrl: 'https://i.ibb.co/Wpyy5DQ/bbq-Chicken-Wings.jpg',
+    imageUrl: 'https://i.ibb.co/dWn3dz5/BBQ-chicken-wings.png',
+    description: 'Chicken wings with spices and smoking aroma',
     categoryId: 2,
   },
   {
     name: 'Pasta Pesto',
-    imageUrl: 'https://i.ibb.co/CPCyskg/pasta-Pesto.jpg',
+    imageUrl: 'https://i.ibb.co/LRYcgQD/Pasta-Pesto.png',
+    description:
+      'Oven pasta with pesto sauce, chicken, tomatoes, mozzarella and specialty tomato sauce',
     categoryId: 2,
   },
   {
     name: 'Cheesecakes with condensed milk',
-    imageUrl: 'https://i.ibb.co/YBXGtv5/cheesecakes-With-Condensed-Milk.jpg',
+    imageUrl: 'https://i.ibb.co/PD0rVz4/Cheesecakes-with-condensed-milk.png',
+    description:
+      'Tender oven-cooked cheesecakes with a portion of sweetened condensed milk',
     categoryId: 3,
   },
   {
     name: 'Cheesecakes with raspberry jam',
-    imageUrl: 'https://i.ibb.co/XSztPXs/cheesecakes-With-Raspberry-Jam.jpg',
+    imageUrl: 'https://i.ibb.co/87g6CBs/Cheesecakes-with-raspberry-jam.png',
+    description:
+      'The favorite dessert of many of our guests - ruddy cheesecakes from the oven. So tender, moderately sweet and reminiscent of childhood',
     categoryId: 3,
   },
   {
     name: 'Ham dodster',
-    imageUrl: 'https://i.ibb.co/HHNBfqF/ham-Dodster.jpg',
+    imageUrl: 'https://i.ibb.co/KsdBp1Y/Ham-dodster.png',
+    description:
+      'Hot breakfast with ham, tomatoes, mozzarella, ranch sauce in a thin wheat tortilla',
     categoryId: 3,
   },
   {
     name: 'Cheesecakes',
-    imageUrl: 'https://i.ibb.co/HrZ8jcB/cheesecakes.jpg',
+    imageUrl: 'https://i.ibb.co/LkDj0p6/Cheesecakes.png',
+    description:
+      'The favorite dessert of many of our guests - ruddy cheesecakes from the oven. So tender, moderately sweet and reminiscent of childhood',
     categoryId: 3,
   },
   {
     name: 'Muffin Salted Caramel',
-    imageUrl: 'https://i.ibb.co/k3HndnQ/muffin-Salted-Caramel.jpg',
+    imageUrl: 'https://i.ibb.co/Jz5kfb4/Muffin-Salted-Caramel.png',
+    description: `Once you take a bite, you'll love it forever! Enjoy the colorful combination of salted caramel and peanuts`,
     categoryId: 4,
   },
   {
-    name: 'Three Chocolates Muffin',
-    imageUrl: 'https://i.ibb.co/DtwnyPh/three-Chocolates-Muffin.jpg',
+    name: 'Triple Chocolate Muffin',
+    imageUrl: 'https://i.ibb.co/YBSx7gj/Triple-Chocolate-Muffin.png',
+    description:
+      'What a muffin this muffin is! It is made of natural cocoa, and inside there is a delicate filling of white and milk chocolate cubes',
     categoryId: 4,
   },
   {
     name: 'Chocolate cookie',
-    imageUrl: 'https://i.ibb.co/Z1ZLh1t/hocolate-ookie.jpg',
+    imageUrl: 'https://i.ibb.co/sb0GL8h/Chocolate-cookie.png',
+    description:
+      'The cookies look like a planet, but taste like a chocolate comet with frosting',
     categoryId: 4,
   },
   {
     name: 'New York cheesecake',
-    imageUrl: 'https://i.ibb.co/cyQF4dG/new-York-Cheesecake.jpg',
+    imageUrl: 'https://i.ibb.co/yNqC2ZH/New-York-cheesecake.png',
+    description: `We've tried a thousand desserts and finally found a guest favorite - tender cottage cheese cheesecake`,
     categoryId: 4,
   },
   {
     name: 'Banana Cheesecake with chocolate cookies',
     imageUrl:
-      'https://i.ibb.co/Nr9sfWV/banana-Cheesecake-With-Chocolate-Cookies.jpg',
+      'https://i.ibb.co/grLHNBZ/Banana-Cheesecake-with-chocolate-cookies.png',
+    description:
+      'Sunny on the outside and bright in flavor on the inside. Summer novelty - delicate cheesecake with banana and chocolate cookies',
     categoryId: 4,
   },
   {
     name: 'Cappuccino Coffee',
-    imageUrl: 'https://i.ibb.co/Mp4rty8/cappuccino-Coffee.jpg',
+    imageUrl: 'https://i.ibb.co/xfw7g8D/Cappuccino-Coffee.png',
+    description:
+      'The king among coffee drinks is the classic cappuccino. For lovers of a balanced coffee and milk flavor',
     categoryId: 5,
   },
   {
     name: 'Latte Coffee',
-    imageUrl: 'https://i.ibb.co/rHKL11b/latte-Coffee.jpg',
+    imageUrl: 'https://i.ibb.co/jRXMGLx/Latte-Coffee.png',
+    description:
+      'When you want a delicate milk foam, a classic latte comes to the rescue',
     categoryId: 5,
   },
   {
     name: 'Americano Coffee',
-    imageUrl: 'https://i.ibb.co/JsyFFf6/americano-Coffee.jpg',
+    imageUrl: 'https://i.ibb.co/S3KsgGq/Americano-Coffee.png',
+    description: `A couple sips of hot Americano and you'll be ready to conquer the day`,
     categoryId: 5,
   },
   {
     name: 'Caramel Cappuccino Coffee',
-    imageUrl: 'https://i.ibb.co/X2xmGS3/caramel-Cappuccino-Coffee.jpg',
+    imageUrl: 'https://i.ibb.co/LvdzJ9Q/Caramel-Cappuccino-Coffee.png',
+    description:
+      'If not chocolate, then caramel! And a cappuccino with caramel syrup is especially good',
     categoryId: 5,
   },
   {
     name: 'Coconut Latte Coffee',
-    imageUrl: 'https://i.ibb.co/nryBtwP/coconut-Latte-Coffee.jpg',
+    imageUrl: 'https://i.ibb.co/pZvDs1Y/Coconut-Latte-Coffee.png',
+    description:
+      'Hot espresso-based drink with increased milk and coconut syrup',
     categoryId: 5,
   },
   {
     name: 'Hazelnut Latte Coffee',
-    imageUrl: 'https://i.ibb.co/m8tHWw6/hazelnut-Latte-Coffee.jpg',
+    imageUrl: 'https://i.ibb.co/sJW0KXs/Hazelnut-Latte-Coffee.png',
+    description:
+      'Lots of milk and hazelnuts. A cozy latte based on espresso and hazelnut syrup',
     categoryId: 5,
+  },
+  {
+    name: 'Chorizo barbecue sandwich',
+    imageUrl: 'https://i.ibb.co/pbsSQgk/Chorizo-barbecue-sandwich.png',
+    description:
+      'The rich flavor of spicy chorizo sausage and spicy pepperoni with burger and barbecue sauces, fresh tomatoes, pickles, mozzarella and onions in browned ciabatta',
+    categoryId: 2,
+  },
+  {
+    name: 'Lingonberry rolls',
+    imageUrl: 'https://i.ibb.co/GFMGwdL/Lingonberry-rolls.png',
+    description: `They're cheerfully sweet rolls swirled with a mix of natural cranberries and condensed milk`,
+    categoryId: 4,
   },
 ];
