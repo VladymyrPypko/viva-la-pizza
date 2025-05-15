@@ -105,7 +105,8 @@ export const products = [
   {
     name: 'Chicken nuggets',
     imageUrl: 'https://i.ibb.co/D8Yz6b8/Chicken-nuggets.png',
-    description: 'Tender chicken meat in crispy breading',
+    description:
+      'Tender chicken meat in a crispy golden breading, fried to perfection for a juicy inside and a crunchy outside.',
     categoryId: 2,
   },
   {

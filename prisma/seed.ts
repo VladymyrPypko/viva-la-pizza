@@ -81,7 +81,7 @@ async function up() {
     data: {
       name: 'Double chicken',
       imageUrl: 'https://i.ibb.co/zP32NMP/Double-chicken.png',
-      description: 'Chicken, mozzarella, specialty alfredo sauce',
+      description: 'Chicken, mozzarella, specialty alfredo sauce. Perfect for lovers of tender chicken and delicate creamy flavors.',
       categoryId: 1,
       ingredients: {
         connect: [{ id: 2 }, { id: 5 }],

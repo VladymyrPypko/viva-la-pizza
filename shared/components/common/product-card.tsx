@@ -20,6 +20,21 @@ export const ProductCard: React.FC<Props> = ({
   imageUrl,
   description,
 }) => {
+
+  function formatDescription(description: string): string {
+    if (description.length >= 75) {
+      return description.slice(0, 75) + '...';
+    }
+    return description;
+  }
+
+  function formatName(name: string): string {
+    if (name.length > 22) {
+      return name.slice(0, 22) + '...';
+    }
+    return name;
+  }
+
   return (
     <div className={className}>
       <Link href={`/product/${id}`} scroll={false}>
@@ -27,9 +42,11 @@ export const ProductCard: React.FC<Props> = ({
           <img className='w-[215px] h-[215px]' src={imageUrl} alt={name} />
         </div>
 
-        <Title className='mb-1 mt-3 font-bold' text={name} size='sm' />
+        <Title className='mb-1 mt-3 font-bold' text={formatName(name)} size='sm' />
 
-        <p className='text-sm text-gray-500'>{description}</p>
+        <p className='text-sm text-gray-500'>
+          {formatDescription(description)}
+        </p>
 
         <div className='flex justify-between items-center mt-4'>
           <span className='text-[20px] text-nowrap'>
