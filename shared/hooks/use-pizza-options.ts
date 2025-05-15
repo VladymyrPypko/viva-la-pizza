@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { PizzaSize, PizzaType } from '../constants/pizza';
 import { Variant } from '../components/common/group-variants';
 import { useSet } from 'react-use';
@@ -10,6 +10,7 @@ interface ReturnProps {
   type: PizzaType;
   selectedIngedients: Set<number>;
   availableSizes: Variant[];
+  currentItemId?: number;
   setSize: (size: PizzaSize) => void;
   setType: (size: PizzaType) => void;
   addIngredient: (id: number) => void;
@@ -24,7 +25,11 @@ export const usePizzaOptions = (items: ProductItem[]): ReturnProps => {
 
   const availableSizes = getAvailablePizzaSizes(type, items);
 
-  React.useEffect(() => {
+  const currentItemId = items.find(
+    (item) => item.pizzaType === type && item.size === size
+  )?.id;
+
+  useEffect(() => {
     const isAvailableSize = availableSizes?.find(
       (item) => Number(item.value) === size && !item.disabled
     );
@@ -40,8 +45,9 @@ export const usePizzaOptions = (items: ProductItem[]): ReturnProps => {
     type,
     selectedIngedients,
     availableSizes,
+    currentItemId,
     setSize,
     setType,
-    addIngredient
-  }
+    addIngredient,
+  };
 };
