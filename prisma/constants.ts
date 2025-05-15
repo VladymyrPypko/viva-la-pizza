@@ -9,7 +9,7 @@ export const categories = [
 export const ingredients = [
   {
     name: 'Cheese crust',
-    price: 1.25,
+    price: 1,
     imageUrl: 'https://i.ibb.co/Wph1Y1k/cheese-Crust.png',
   },
   {
@@ -19,32 +19,32 @@ export const ingredients = [
   },
   {
     name: 'Cheddar and parmesan',
-    price: 1,
+    price: 2,
     imageUrl: 'https://i.ibb.co/0f6XHMn/cheddar-And-Parmesan.png',
   },
   {
     name: 'Hot jalapeno peppers',
-    price: 0.8,
+    price: 1,
     imageUrl: 'https://i.ibb.co/kg7FnMh/hot-Jalapeno-Peppers.png',
   },
   {
     name: 'Tender chicken',
-    price: 0.8,
+    price: 1,
     imageUrl: 'https://i.ibb.co/rkjzY8r/tender-Chicken.png',
   },
   {
     name: 'Champignons',
-    price: 0.7,
+    price: 1,
     imageUrl: 'https://i.ibb.co/K6VTPSL/champignons.png',
   },
   {
     name: 'Ham',
-    price: 0.8,
+    price: 2,
     imageUrl: 'https://i.ibb.co/BchgFbP/ham.png',
   },
   {
     name: 'Spicy pepperoni',
-    price: 1,
+    price: 2,
     imageUrl: 'https://i.ibb.co/ZSyGjRs/spicy-Pepperoni.png',
   },
   {
@@ -54,32 +54,32 @@ export const ingredients = [
   },
   {
     name: 'Pickles',
-    price: 0.5,
+    price: 1,
     imageUrl: 'https://i.ibb.co/pLRCQJP/pickles.png',
   },
   {
     name: 'Fresh tomatoes',
-    price: 0.5,
+    price: 1,
     imageUrl: 'https://i.ibb.co/17Y4pkP/fresh-Tomatoes.png',
   },
   {
     name: 'Red onion',
-    price: 0.5,
+    price: 1,
     imageUrl: 'https://i.ibb.co/wwh5Q55/redOnion.png',
   },
   {
     name: 'Juicy pineapples',
-    price: 0.6,
+    price: 1,
     imageUrl: 'https://i.ibb.co/LtMHSJd/juicy-Pineapples.png',
   },
   {
     name: 'Italian spices',
-    price: 0.25,
+    price: 1,
     imageUrl: 'https://i.ibb.co/6rtCxX5/italian-Spices.png',
   },
   {
     name: 'Sweet peppers',
-    price: 0.6,
+    price: 1,
     imageUrl: 'https://i.ibb.co/wNMDCkv/sweet-Peppers.png',
   },
   {
@@ -89,7 +89,7 @@ export const ingredients = [
   },
   {
     name: 'Meatballs',
-    price: 1,
+    price: 2,
     imageUrl: 'https://i.ibb.co/5MQ5ZTz/meatballs.png',
   },
 ].map((obj, index) => ({ id: index + 1, ...obj }));
