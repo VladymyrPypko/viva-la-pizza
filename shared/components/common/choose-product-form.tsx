@@ -3,12 +3,13 @@ import { Title } from './title';
 import { Button } from '../ui';
 
 interface Props {
-  className?: string;
   imageUrl: string;
   name: string;
   price: number;
   description?: string;
+  loading?: boolean;
   onSubmit?: VoidFunction;
+  className?: string;
 }
 
 export const ChooseProductForm: React.FC<Props> = ({
@@ -17,6 +18,7 @@ export const ChooseProductForm: React.FC<Props> = ({
   name,
   price,
   description,
+  loading,
   onSubmit,
 }) => {
   return (
@@ -35,7 +37,8 @@ export const ChooseProductForm: React.FC<Props> = ({
         <p className='text-gray-400'>{description}</p>
 
         <Button
-          onClick={onSubmit}
+          loading={loading}
+          onClick={() => onSubmit?.()}
           className='h-[55px] px-10 text-base rounded-[18px] w-full mt-10'
         >
           Add to cart for {price} $
